@@ -19,7 +19,7 @@ local connect = {
         }
     }
 
-PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "ImShow Server Logger", embeds = connect}), { ['Content-Type'] = 'application/json' })
+PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "Word Server Logger", embeds = connect}), { ['Content-Type'] = 'application/json' })
 end)
 
 AddEventHandler('playerDropped', function(reason)
@@ -39,5 +39,5 @@ local disconnect = {
         }
     }
 
-    PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "ImShow Server Logger", embeds = disconnect}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "Word Server Logger", embeds = disconnect}), { ['Content-Type'] = 'application/json' })
 end)
