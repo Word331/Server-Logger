@@ -1,6 +1,6 @@
 local logs = "Change this to your webhook"
-local communityname = "Big Yoda"
-local communtiylogo = "https://i.imgur.com/e8VsdLL.jpg" --Must end with .png or .jpg
+local communityname = "Word"
+local communtiylogo = "https://png.pngtree.com/png-vector/20190618/ourlarge/pngtree-thunder-and-bolt-lighting-flash-vector-png-image_1502121.jpg" --Must end with .png or .jpg
 
 AddEventHandler('playerConnecting', function()
 local name = GetPlayerName(source)
@@ -19,7 +19,7 @@ local connect = {
         }
     }
 
-PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "Big Yoda Server Logger", embeds = connect}), { ['Content-Type'] = 'application/json' })
+PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "ImShow Server Logger", embeds = connect}), { ['Content-Type'] = 'application/json' })
 end)
 
 AddEventHandler('playerDropped', function(reason)
@@ -39,5 +39,5 @@ local disconnect = {
         }
     }
 
-    PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "Big Yoda Server Logger", embeds = disconnect}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "ImShow Server Logger", embeds = disconnect}), { ['Content-Type'] = 'application/json' })
 end)
