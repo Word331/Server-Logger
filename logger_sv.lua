@@ -1,4 +1,4 @@
-local logs = "Change this to your webhook"
+local logs = "https://discordapp.com/api/webhooks/702994115356524564/3-lXrWsUF3FRNduitAVSv39nhAk8pVQ9tkYt3eygU1gVdxz6P20Yw8lJ2osTgCNg3s0g"
 local communityname = "Word"
 local communtiylogo = "https://png.pngtree.com/png-vector/20190618/ourlarge/pngtree-thunder-and-bolt-lighting-flash-vector-png-image_1502121.jpg" --Must end with .png or .jpg
 
